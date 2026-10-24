@@ -1,0 +1,30 @@
+{
+  "name": "e-commerce-cypress",
+  "version": "1.0.0",
+  "description": "Testes E2E do SauceDemo com Cypress, Page Objects e mapeamento real via Playwright MCP.",
+  "homepage": "https://github.com/slusarzrafael/e-commerce-cypress#readme",
+  "bugs": {
+    "url": "https://github.com/slusarzrafael/e-commerce-cypress/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/slusarzrafael/e-commerce-cypress.git"
+  },
+  "license": "MIT",
+  "author": "Rafael Slusarz",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run cy:run",
+    "cy:open": "cypress open",
+    "cy:run": "cypress run",
+    "cy:auth": "cypress run --spec cypress/e2e/auth/**/*.cy.js",
+    "cy:catalog": "cypress run --spec cypress/e2e/catalog/**/*.cy.js",
+    "cy:cart": "cypress run --spec cypress/e2e/cart/**/*.cy.js",
+    "cy:checkout": "cypress run --spec cypress/e2e/checkout/**/*.cy.js",
+    "cy:validations": "cypress run --spec cypress/e2e/validations/**/*.cy.js"
+  },
+  "devDependencies": {
+    "cypress": "^15.0.0"
+  }
+}

@@ -1,0 +1,5 @@
+export { LoginPage } from './LoginPage'
+export { Menu } from './Menu'
+export { CatalogPage } from './CatalogPage'
+export { CartPage } from './CartPage'
+export { CheckoutPage } from './CheckoutPage'

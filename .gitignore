@@ -1,0 +1,26 @@
+# Dependencies
+node_modules/
+
+# Cypress artifacts
+cypress/videos/
+cypress/screenshots/
+cypress/downloads/
+
+# MCP config (contains PLAYWRIGHT_MCP_EXTENSION_TOKEN)
+.vscode/mcp.json
+
+# Playwright MCP output
+.playwright-mcp/
+
+# Logs
+npm-debug.log*
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Env files
+.env
+.env.local
+cypress.env.json
